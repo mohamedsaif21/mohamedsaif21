@@ -27,4 +27,22 @@
 ## 🎨 Design 
 ![Canva](https://img.shields.io/badge/Canva-%2300C4CC.svg?style=for-the-badge&logo=Canva&logoColor=white)
 
+---
 
+## 📊 GitHub Stats
+
+<div align="center">
+
+![](https://github-readme-stats.vercel.app/api?username=mohamedsaif21&show_icons=true&theme=transparent)
+
+![](https://github-readme-stats.vercel.app/api/top-langs/?username=mohamedsaif21&layout=compact&theme=transparent)
+
+</div>
+
+---
+
+<div align="center">
+
+### 💡 Building intelligent systems one project at a time.
+
+</div>
