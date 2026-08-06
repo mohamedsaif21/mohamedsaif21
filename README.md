@@ -32,13 +32,11 @@
 
 ## 📊 GitHub Stats
 
-<div align="center">
+![](https://github-readme-stats.vercel.app/api?username=mohamedsaif21&show_icons=true&theme=tokyonight)
 
-![](https://github-readme-stats.vercel.app/api?username=mohamedsaif21&show_icons=true&theme=transparent)
+![](https://github-readme-streak-stats.herokuapp.com/?user=mohamedsaif21&theme=tokyonight)
 
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=mohamedsaif21&layout=compact&theme=transparent)
-
-</div>
+![](https://github-readme-stats.vercel.app/api/top-langs/?username=mohamedsaif21&layout=compact&theme=tokyonight)
 
 ---
 
