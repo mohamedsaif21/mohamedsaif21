@@ -8,7 +8,7 @@
 
 <br/>
 <div align="center">
-  <img src="https://cdn.jsdelivr.net/gh/mohamedsaif21/mohamedsaif21/dino-game.svg" alt="Dino Game" width="100%" />
+  <img src="https://raw.githubusercontent.com/mohamedsaif21/mohamedsaif21/main/dino-game.svg?v=2" alt="Dino Game" width="100%" />
 </div>
 
 > My little dino never stops — just like my commits. Jumping over obstacles, dodging deadlines, and running toward the next release. 🏃‍♂️💨

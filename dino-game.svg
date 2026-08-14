@@ -1,16 +1,53 @@
 <svg viewBox="0 0 900 200" xmlns="http://www.w3.org/2000/svg">
-  <defs><style>.px{shape-rendering:crispEdges;}</style></defs>
+  <defs>
+    <style>
+      .px { shape-rendering: crispEdges; }
+
+      /* star twinkle */
+      @keyframes twinkle { 0%,100% { opacity:.2 } 50% { opacity:1 } }
+      .s1 { animation: twinkle 2.3s infinite; }
+      .s2 { animation: twinkle 3.1s infinite; }
+      .s3 { animation: twinkle 1.8s infinite; }
+      .s4 { animation: twinkle 2.6s infinite; }
+      .s5 { animation: twinkle 3.4s infinite; }
+
+      /* scrolling ground dashes */
+      @keyframes scroll { from { transform: translate(0,0) } to { transform: translate(-900px,0) } }
+      .ground { animation: scroll 2.6s linear infinite; }
+
+      /* cacti approaching */
+      @keyframes cactus { from { transform: translate(900px,0) } to { transform: translate(-30px,0) } }
+      .cactus1 { animation: cactus 2.6s linear infinite; }
+      .cactus2 { animation: cactus 2.6s linear infinite; animation-delay: -1.3s; }
+
+      /* dino jumping over cacti */
+      @keyframes jump {
+        0%,33%      { transform: translate(60px,0) }
+        39%,45%     { transform: translate(60px,-46px) }
+        50%,83%     { transform: translate(60px,0) }
+        89%,95%     { transform: translate(60px,-46px) }
+        100%        { transform: translate(60px,0) }
+      }
+      .dino { animation: jump 2.6s linear infinite; }
+
+      /* running legs */
+      @keyframes runL { 0%,50%,100% { transform: scaleY(1) } 25% { transform: scaleY(.4) } }
+      @keyframes runR { 0%,50%,100% { transform: scaleY(.4) } 25% { transform: scaleY(1) } }
+      .legL { transform-box: fill-box; transform-origin: bottom; animation: runL .4s infinite; }
+      .legR { transform-box: fill-box; transform-origin: bottom; animation: runR .4s infinite; }
+    </style>
+  </defs>
 
   <!-- background -->
   <rect x="0" y="0" width="900" height="200" fill="#0d1117"/>
 
   <!-- stars -->
   <g fill="#c9d1d9">
-    <circle cx="60" cy="24" r="1.4"><animate attributeName="opacity" values="0.2;1;0.2" dur="2.3s" repeatCount="indefinite"/></circle>
-    <circle cx="240" cy="40" r="1.4"><animate attributeName="opacity" values="1;0.2;1" dur="3.1s" repeatCount="indefinite"/></circle>
-    <circle cx="420" cy="20" r="1.4"><animate attributeName="opacity" values="0.3;1;0.3" dur="1.8s" repeatCount="indefinite"/></circle>
-    <circle cx="600" cy="45" r="1.4"><animate attributeName="opacity" values="1;0.3;1" dur="2.6s" repeatCount="indefinite"/></circle>
-    <circle cx="500" cy="60" r="1.4"><animate attributeName="opacity" values="0.2;1;0.2" dur="3.4s" repeatCount="indefinite"/></circle>
+    <circle class="s1" cx="60" cy="24" r="1.4"/>
+    <circle class="s2" cx="240" cy="40" r="1.4"/>
+    <circle class="s3" cx="420" cy="20" r="1.4"/>
+    <circle class="s4" cx="600" cy="45" r="1.4"/>
+    <circle class="s5" cx="500" cy="60" r="1.4"/>
   </g>
 
   <!-- moon -->
@@ -25,7 +62,7 @@
 
   <!-- scrolling ground dashes, exactly on the baseline -->
   <g stroke="#30363d" stroke-width="1.5" class="px">
-    <g>
+    <g class="ground">
       <line x1="10" y1="180" x2="26" y2="180"/>
       <line x1="70" y1="180" x2="80" y2="180"/>
       <line x1="150" y1="180" x2="172" y2="180"/>
@@ -36,9 +73,8 @@
       <line x1="620" y1="180" x2="628" y2="180"/>
       <line x1="710" y1="180" x2="732" y2="180"/>
       <line x1="810" y1="180" x2="818" y2="180"/>
-      <animateTransform attributeName="transform" type="translate" from="0 0" to="-900 0" dur="2.6s" repeatCount="indefinite"/>
     </g>
-    <g>
+    <g class="ground">
       <line x1="910" y1="180" x2="926" y2="180"/>
       <line x1="970" y1="180" x2="980" y2="180"/>
       <line x1="1050" y1="180" x2="1072" y2="180"/>
@@ -49,53 +85,42 @@
       <line x1="1520" y1="180" x2="1528" y2="180"/>
       <line x1="1610" y1="180" x2="1632" y2="180"/>
       <line x1="1710" y1="180" x2="1718" y2="180"/>
-      <animateTransform attributeName="transform" type="translate" from="0 0" to="-900 0" dur="2.6s" repeatCount="indefinite"/>
     </g>
   </g>
 
   <!-- cacti: proper stem + two arms, feet resting exactly on baseline -->
   <g fill="#c9d1d9" class="px">
-    <g>
+    <g class="cactus1">
       <rect x="-4" y="150" width="8" height="30"/>
       <rect x="-12" y="158" width="8" height="6"/>
       <rect x="-12" y="150" width="6" height="10"/>
       <rect x="4" y="164" width="8" height="6"/>
       <rect x="6" y="156" width="6" height="14"/>
-      <animateTransform attributeName="transform" type="translate" from="900 0" to="-30 0" dur="2.6s" repeatCount="indefinite"/>
     </g>
-    <g>
+    <g class="cactus2">
       <rect x="-4" y="140" width="8" height="40"/>
       <rect x="-12" y="150" width="8" height="6"/>
       <rect x="-12" y="140" width="6" height="12"/>
       <rect x="4" y="156" width="8" height="6"/>
       <rect x="6" y="146" width="6" height="16"/>
-      <animateTransform attributeName="transform" type="translate" from="900 0" to="-30 0" dur="2.6s" begin="-1.3s" repeatCount="indefinite"/>
     </g>
   </g>
 
   <!-- dino: grounded, feet touch baseline. Jumps only right as each cactus arrives -->
   <g class="px">
-    <animateTransform attributeName="transform" type="translate"
-      values="60 0; 60 0; 60 -46; 60 -46; 60 0; 60 0; 60 -46; 60 -46; 60 0; 60 0"
-      keyTimes="0; 0.33; 0.39; 0.45; 0.5; 0.83; 0.89; 0.95; 1; 1"
-      calcMode="linear" dur="2.6s" repeatCount="indefinite"/>
-
-    <g fill="#c9d1d9">
-      <rect x="20" y="118" width="22" height="10"/>
-      <rect x="34" y="121" width="4" height="4" fill="#0d1117"/>
-      <rect x="10" y="128" width="32" height="10"/>
-      <rect x="4" y="138" width="38" height="12"/>
-      <rect x="0" y="148" width="6" height="8"/>
-      <rect x="4" y="150" width="34" height="20"/>
-    </g>
-
-    <g fill="#c9d1d9">
-      <rect x="8" y="170" width="8" height="10">
-        <animate attributeName="height" values="10;4;10;10" keyTimes="0;0.25;0.5;1" dur="0.4s" repeatCount="indefinite"/>
-      </rect>
-      <rect x="24" y="170" width="8" height="10">
-        <animate attributeName="height" values="4;10;4;4" keyTimes="0;0.25;0.5;1" dur="0.4s" repeatCount="indefinite"/>
-      </rect>
+    <g class="dino">
+      <g fill="#c9d1d9">
+        <rect x="20" y="118" width="22" height="10"/>
+        <rect x="34" y="121" width="4" height="4" fill="#0d1117"/>
+        <rect x="10" y="128" width="32" height="10"/>
+        <rect x="4" y="138" width="38" height="12"/>
+        <rect x="0" y="148" width="6" height="8"/>
+        <rect x="4" y="150" width="34" height="20"/>
+      </g>
+      <g fill="#c9d1d9">
+        <rect class="legL" x="8" y="170" width="8" height="10"/>
+        <rect class="legR" x="24" y="170" width="8" height="10"/>
+      </g>
     </g>
   </g>
 </svg>
