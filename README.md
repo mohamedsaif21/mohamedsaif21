@@ -7,9 +7,6 @@
 </div>
 
 <br/>
-
-## 🦖 Dino Game Animation
-
 <div align="center">
   <img src="https://cdn.jsdelivr.net/gh/mohamedsaif21/mohamedsaif21/dino-game.svg" alt="Dino Game" width="100%" />
 </div>
@@ -76,7 +73,7 @@ const developer = {
 
 <br/>
 
-## 🐍 Contribution Snake
+## Contribution Snake
 
 <div align="center">
 <img src="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake-dark.svg" width="100%"/>
@@ -84,20 +81,6 @@ const developer = {
 
 <br/>
 
-## 🌐 Connect with Me
-
-<div align="center">
-
-<a href="#"><img src="https://img.shields.io/badge/-LinkedIn-000000?style=flat-square&logo=linkedin&logoColor=36BCF7"/></a>
-<a href="#"><img src="https://img.shields.io/badge/-Twitter-000000?style=flat-square&logo=x&logoColor=36BCF7"/></a>
-<a href="#"><img src="https://img.shields.io/badge/-Portfolio-000000?style=flat-square&logo=vercel&logoColor=36BCF7"/></a>
-<a href="#"><img src="https://img.shields.io/badge/-Gmail-000000?style=flat-square&logo=gmail&logoColor=36BCF7"/></a>
-
-<br/><br/>
-
-<img src="https://komarev.com/ghpvc/?username=mohamedsaif21&label=visitors&color=0d1117&style=flat-square" />
-
-</div>
 
 <br/>
 
