@@ -1,0 +1,101 @@
+<svg viewBox="0 0 900 200" xmlns="http://www.w3.org/2000/svg">
+  <defs><style>.px{shape-rendering:crispEdges;}</style></defs>
+
+  <!-- background -->
+  <rect x="0" y="0" width="900" height="200" fill="#0d1117"/>
+
+  <!-- stars -->
+  <g fill="#c9d1d9">
+    <circle cx="60" cy="24" r="1.4"><animate attributeName="opacity" values="0.2;1;0.2" dur="2.3s" repeatCount="indefinite"/></circle>
+    <circle cx="240" cy="40" r="1.4"><animate attributeName="opacity" values="1;0.2;1" dur="3.1s" repeatCount="indefinite"/></circle>
+    <circle cx="420" cy="20" r="1.4"><animate attributeName="opacity" values="0.3;1;0.3" dur="1.8s" repeatCount="indefinite"/></circle>
+    <circle cx="600" cy="45" r="1.4"><animate attributeName="opacity" values="1;0.3;1" dur="2.6s" repeatCount="indefinite"/></circle>
+    <circle cx="500" cy="60" r="1.4"><animate attributeName="opacity" values="0.2;1;0.2" dur="3.4s" repeatCount="indefinite"/></circle>
+  </g>
+
+  <!-- moon -->
+  <circle cx="840" cy="35" r="14" fill="#c9d1d9" opacity="0.9"/>
+  <circle cx="847" cy="30" r="14" fill="#0d1117"/>
+
+  <!-- score -->
+  <text x="740" y="28" font-family="monospace" font-size="15" fill="#c9d1d9" letter-spacing="2">HI 021401</text>
+
+  <!-- ground: single clean baseline -->
+  <line x1="0" y1="180" x2="900" y2="180" stroke="#30363d" stroke-width="1.5"/>
+
+  <!-- scrolling ground dashes, exactly on the baseline -->
+  <g stroke="#30363d" stroke-width="1.5" class="px">
+    <g>
+      <line x1="10" y1="180" x2="26" y2="180"/>
+      <line x1="70" y1="180" x2="80" y2="180"/>
+      <line x1="150" y1="180" x2="172" y2="180"/>
+      <line x1="240" y1="180" x2="248" y2="180"/>
+      <line x1="330" y1="180" x2="352" y2="180"/>
+      <line x1="430" y1="180" x2="438" y2="180"/>
+      <line x1="520" y1="180" x2="542" y2="180"/>
+      <line x1="620" y1="180" x2="628" y2="180"/>
+      <line x1="710" y1="180" x2="732" y2="180"/>
+      <line x1="810" y1="180" x2="818" y2="180"/>
+      <animateTransform attributeName="transform" type="translate" from="0 0" to="-900 0" dur="2.6s" repeatCount="indefinite"/>
+    </g>
+    <g>
+      <line x1="910" y1="180" x2="926" y2="180"/>
+      <line x1="970" y1="180" x2="980" y2="180"/>
+      <line x1="1050" y1="180" x2="1072" y2="180"/>
+      <line x1="1140" y1="180" x2="1148" y2="180"/>
+      <line x1="1230" y1="180" x2="1252" y2="180"/>
+      <line x1="1330" y1="180" x2="1338" y2="180"/>
+      <line x1="1420" y1="180" x2="1442" y2="180"/>
+      <line x1="1520" y1="180" x2="1528" y2="180"/>
+      <line x1="1610" y1="180" x2="1632" y2="180"/>
+      <line x1="1710" y1="180" x2="1718" y2="180"/>
+      <animateTransform attributeName="transform" type="translate" from="0 0" to="-900 0" dur="2.6s" repeatCount="indefinite"/>
+    </g>
+  </g>
+
+  <!-- cacti: proper stem + two arms, feet resting exactly on baseline -->
+  <g fill="#c9d1d9" class="px">
+    <g>
+      <rect x="-4" y="150" width="8" height="30"/>
+      <rect x="-12" y="158" width="8" height="6"/>
+      <rect x="-12" y="150" width="6" height="10"/>
+      <rect x="4" y="164" width="8" height="6"/>
+      <rect x="6" y="156" width="6" height="14"/>
+      <animateTransform attributeName="transform" type="translate" from="900 0" to="-30 0" dur="2.6s" repeatCount="indefinite"/>
+    </g>
+    <g>
+      <rect x="-4" y="140" width="8" height="40"/>
+      <rect x="-12" y="150" width="8" height="6"/>
+      <rect x="-12" y="140" width="6" height="12"/>
+      <rect x="4" y="156" width="8" height="6"/>
+      <rect x="6" y="146" width="6" height="16"/>
+      <animateTransform attributeName="transform" type="translate" from="900 0" to="-30 0" dur="2.6s" begin="-1.3s" repeatCount="indefinite"/>
+    </g>
+  </g>
+
+  <!-- dino: grounded, feet touch baseline. Jumps only right as each cactus arrives -->
+  <g class="px">
+    <animateTransform attributeName="transform" type="translate"
+      values="60 0; 60 0; 60 -46; 60 -46; 60 0; 60 0; 60 -46; 60 -46; 60 0; 60 0"
+      keyTimes="0; 0.33; 0.39; 0.45; 0.5; 0.83; 0.89; 0.95; 1; 1"
+      calcMode="linear" dur="2.6s" repeatCount="indefinite"/>
+
+    <g fill="#c9d1d9">
+      <rect x="20" y="118" width="22" height="10"/>
+      <rect x="34" y="121" width="4" height="4" fill="#0d1117"/>
+      <rect x="10" y="128" width="32" height="10"/>
+      <rect x="4" y="138" width="38" height="12"/>
+      <rect x="0" y="148" width="6" height="8"/>
+      <rect x="4" y="150" width="34" height="20"/>
+    </g>
+
+    <g fill="#c9d1d9">
+      <rect x="8" y="170" width="8" height="10">
+        <animate attributeName="height" values="10;4;10;10" keyTimes="0;0.25;0.5;1" dur="0.4s" repeatCount="indefinite"/>
+      </rect>
+      <rect x="24" y="170" width="8" height="10">
+        <animate attributeName="height" values="4;10;4;4" keyTimes="0;0.25;0.5;1" dur="0.4s" repeatCount="indefinite"/>
+      </rect>
+    </g>
+  </g>
+</svg>

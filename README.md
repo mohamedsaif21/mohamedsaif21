@@ -1,7 +1,39 @@
+<div align="center">
+
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?size=22&duration=3000&pause=800&color=36BCF7&center=true&vCenter=true&width=650&lines=Hi👋+I+am+Mohamed+saif;Workflow+will+be+fast+when+using+AI;Build+Smarter+Not+Harder" />
+  <img src="https://readme-typing-svg.herokuapp.com?size=26&duration=3000&pause=800&color=36BCF7&center=true&vCenter=true&width=700&lines=Hi+%F0%9F%91%8B+I+am+Mohamed+Saif;Full+Stack+Developer;Workflow+will+be+fast+when+using+AI;Build+Smarter+Not+Harder" />
 </p>
 
+</div>
+
+<br/>
+
+## 🦖 Dino Game Animation
+
+<div align="center">
+  <img src="https://cdn.jsdelivr.net/gh/mohamedsaif21/mohamedsaif21/dino-game.svg" alt="Dino Game" width="100%" />
+</div>
+
+> My little dino never stops — just like my commits. Jumping over obstacles, dodging deadlines, and running toward the next release. 🏃‍♂️💨
+
+<br/>
+
+## 💡 About Me
+
+```javascript
+const developer = {
+  name: "Mohamed Saif",
+  role: "Full Stack Developer",
+  stack: ["React", "Node", "Python"],
+  mindset: "Build Smarter, Not Harder",
+  status: "Shipping something right now",
+  motto: "Workflow will be fast when using AI"
+};
+```
+
+<br/>
+
+---
 
 # 💻 Tech Stack
 
@@ -23,14 +55,16 @@
 ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
 ![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white)
 ![Notion](https://img.shields.io/badge/Notion-%23000000.svg?style=for-the-badge&logo=notion&logoColor=white)
-<img src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white"/>
+![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
 
-## 🎨 Design 
+## 🎨 Design
 ![Canva](https://img.shields.io/badge/Canva-%2300C4CC.svg?style=for-the-badge&logo=Canva&logoColor=white)
 
 ---
 
 ## 📊 GitHub Stats
+
+<div align="center">
 
 ![](https://github-readme-stats.vercel.app/api?username=mohamedsaif21&show_icons=true&theme=tokyonight)
 
@@ -38,10 +72,39 @@
 
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=mohamedsaif21&layout=compact&theme=tokyonight)
 
----
+</div>
+
+<br/>
+
+## 🐍 Contribution Snake
+
+<div align="center">
+<img src="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake-dark.svg" width="100%"/>
+</div>
+
+<br/>
+
+## 🌐 Connect with Me
+
+<div align="center">
+
+<a href="#"><img src="https://img.shields.io/badge/-LinkedIn-000000?style=flat-square&logo=linkedin&logoColor=36BCF7"/></a>
+<a href="#"><img src="https://img.shields.io/badge/-Twitter-000000?style=flat-square&logo=x&logoColor=36BCF7"/></a>
+<a href="#"><img src="https://img.shields.io/badge/-Portfolio-000000?style=flat-square&logo=vercel&logoColor=36BCF7"/></a>
+<a href="#"><img src="https://img.shields.io/badge/-Gmail-000000?style=flat-square&logo=gmail&logoColor=36BCF7"/></a>
+
+<br/><br/>
+
+<img src="https://komarev.com/ghpvc/?username=mohamedsaif21&label=visitors&color=0d1117&style=flat-square" />
+
+</div>
+
+<br/>
 
 <div align="center">
 
 ### 💡 Building intelligent systems one project at a time.
+
+**Thanks for stopping by. Now go build something.** 🚀
 
 </div>
