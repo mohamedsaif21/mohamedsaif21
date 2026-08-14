@@ -8,8 +8,6 @@
 
 <br/>
 
-## 🦖 Dino Game Animation
-
 <div align="center">
   <img src="https://raw.githubusercontent.com/mohamedsaif21/mohamedsaif21/main/dino-game.svg?v=2" alt="Dino Game" width="100%" />
 </div>
@@ -51,11 +49,11 @@ const developer = {
 
 ## 🔭 Current Work & Learning
 
-- 🔭 **Working on:** A scalable full-stack application using React + Node.js.
-- 🌱 **Learning:** Advanced System Design & DevOps.
-- 👯 **Looking to collaborate on:** Open-source and AI-powered tools.
-- 💬 **Ask me about:** React, Node.js, Python, and shipping fast with AI.
-- ⚡ **Fun fact:** My dino game never loses. 😄
+- **Working on:** A scalable full-stack application using React + Node.js.
+- **Learning:** Advanced System Design & DevOps.
+- **Looking to collaborate on:** Open-source and AI-powered tools.
+- **Ask me about:** React, Node.js, Python, and shipping fast with AI.
+- **Fun fact:** My dino game never loses. 
 
 <br/>
 
@@ -88,61 +86,10 @@ const developer = {
 
 ---
 
-## 📊 GitHub Stats
-
-<div align="center">
-
-![](https://github-readme-stats.vercel.app/api?username=mohamedsaif21&show_icons=true&theme=tokyonight)
-
-![](https://github-readme-streak-stats.herokuapp.com/?user=mohamedsaif21&theme=tokyonight)
-
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=mohamedsaif21&layout=compact&theme=tokyonight)
-
-</div>
-
-<br/>
-
-## 🏆 GitHub Trophies
-
-<div align="center">
-
-<img src="https://github-profile-trophy.vercel.app/?username=mohamedsaif21&theme=tokyonight&no-bg=true&row=1&column=6" alt="GitHub Trophies" />
-
-</div>
-
-<br/>
-
-## ⚡ Recent Activity
-
-<div align="center">
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=mohamedsaif21&theme=tokyo-night&hide_border=true&area=true" alt="Contribution Graph" />
-
-</div>
-
-<br/>
-
 ## 🐍 Contribution Snake
 
 <div align="center">
 <img src="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake-dark.svg" width="100%"/>
-</div>
-
-<br/>
-
-## 🌐 Connect with Me
-
-<div align="center">
-
-<a href="#"><img src="https://img.shields.io/badge/-LinkedIn-000000?style=flat-square&logo=linkedin&logoColor=36BCF7"/></a>
-<a href="#"><img src="https://img.shields.io/badge/-Twitter-000000?style=flat-square&logo=x&logoColor=36BCF7"/></a>
-<a href="#"><img src="https://img.shields.io/badge/-Portfolio-000000?style=flat-square&logo=vercel&logoColor=36BCF7"/></a>
-<a href="#"><img src="https://img.shields.io/badge/-Gmail-000000?style=flat-square&logo=gmail&logoColor=36BCF7"/></a>
-
-<br/><br/>
-
-<img src="https://komarev.com/ghpvc/?username=mohamedsaif21&label=visitors&color=0d1117&style=flat-square" />
-
 </div>
 
 <br/>
