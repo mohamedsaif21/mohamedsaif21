@@ -16,7 +16,7 @@
 
 <br/>
 
-## 💡 About Me
+##  About Me
 
 ```javascript
 const developer = {
@@ -31,7 +31,7 @@ const developer = {
 
 <br/>
 
-## 🚀 Featured Projects
+##  Featured Projects
 
 <div align="center">
 
@@ -43,11 +43,11 @@ const developer = {
 
 </div>
 
-> 💡 *Replace the placeholder rows above with your real pinned projects, descriptions, and live links.*
+>  *Replace the placeholder rows above with your real pinned projects, descriptions, and live links.*
 
 <br/>
 
-## 🔭 Current Work & Learning
+##  Current Work & Learning
 
 - **Working on:** A scalable full-stack application using React + Node.js.
 - **Learning:** Advanced System Design & DevOps.
@@ -59,9 +59,9 @@ const developer = {
 
 ---
 
-# 💻 Tech Stack
+#  Tech Stack
 
-## 🌐 Frontend Technologies
+##  Frontend Technologies
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
@@ -69,11 +69,11 @@ const developer = {
 ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
 ![React Native](https://img.shields.io/badge/react_native-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
 
-## 🧠 Backend & Programming Languages
+##  Backend & Programming Languages
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 ![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB)
 
-## 🛠️ Tools & Platforms
+##  Tools & Platforms
 ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
 ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
 ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
@@ -81,12 +81,12 @@ const developer = {
 ![Notion](https://img.shields.io/badge/Notion-%23000000.svg?style=for-the-badge&logo=notion&logoColor=white)
 ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
 
-## 🎨 Design
+##  Design
 ![Canva](https://img.shields.io/badge/Canva-%2300C4CC.svg?style=for-the-badge&logo=Canva&logoColor=white)
 
 ---
 
-## 🐍 Contribution Snake
+##  Contribution Snake
 
 <div align="center">
 <img src="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake-dark.svg" width="100%"/>
@@ -96,8 +96,8 @@ const developer = {
 
 <div align="center">
 
-### 💡 Building intelligent systems one project at a time.
+###  Building intelligent systems one project at a time.
 
-**Thanks for stopping by. Now go build something.** 🚀
+**Thanks for stopping by. Now go build something.** 
 
 </div>
